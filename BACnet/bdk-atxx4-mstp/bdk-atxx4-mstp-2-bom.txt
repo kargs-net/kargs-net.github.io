@@ -1,0 +1,103 @@
+Partlist exported from bdk-atxx4-mstp-2.sch at 4/25/09 7:38 AM
+
+Part  Value               Device        Package    Description                                                            
+C1    .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+C2    .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+C3    .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+C4    .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+C5    .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+C6    .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+C7    .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+C8    4.7UF X7R           C-USC0805     C0805      CAPACITOR, American symbol                                             
+C9    .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+C10   .1UF X7R            C-USC0805     C0805      CAPACITOR, American symbol                                             
+H1    MOUNT-HOLE2.8       MOUNT-HOLE2.8 2,8        MOUNTING HOLE with drill center marker                                 
+H2    MOUNT-HOLE2.8       MOUNT-HOLE2.8 2,8        MOUNTING HOLE with drill center marker                                 
+H3    MOUNT-HOLE2.8       MOUNT-HOLE2.8 2,8        MOUNTING HOLE with drill center marker                                 
+H4    MOUNT-HOLE2.8       MOUNT-HOLE2.8 2,8        MOUNTING HOLE with drill center marker                                 
+IC1   24C16BSN            24C16BSN      SO-08      Serial EEPROM                                                          
+IC2   ATMEGA644A          ATMEGA644A    TQFP44     8-bit Microcontroller with 64K Bytes In-System Programmable Flash      
+IC3   MAX481CSA           MAX481CSA     SO08       RS485 TRANSEIVER                                                       
+IC4   FT232RL             FT232RL       SSOP28     Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf
+ISP   67996-406HLF        PINHD-2X3     2X03       PIN HEADER                                                             
+J1    RAPC722X            JACK-PLUG0    SPC4077    DC POWER JACK                                                          
+JP1                       PINHD-1X3     1X03       PIN HEADER                                                             
+JP6   90120-0122          PINHD-1X2     1X02       PIN HEADER                                                             
+JTAG  67997-410HLF        PINHD-2X5     2X05       PIN HEADER                                                             
+L1    10uH                L-USL1812     L1812      INDUCTOR, American symbol                                              
+LD1   PL006-WCR21         PL006-WCR21   SOT23      PLH006 Series SMD LED SOT23                                            
+LD2   PL006-WCR21         PL006-WCR21   SOT23      PLH006 Series SMD LED SOT23                                            
+LD3   PL006-WCR21         PL006-WCR21   SOT23      PLH006 Series SMD LED SOT23                                            
+LD4   PL006-WCR21         PL006-WCR21   SOT23      PLH006 Series SMD LED SOT23                                            
+LD5   PL006-WCR21         PL006-WCR21   SOT23      PLH006 Series SMD LED SOT23                                            
+PWREN TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+Q1    AWSCR-18.43CV-T     SWSCR-CV      AWSCR-CV   Abracon Resonator                                                      
+R1    10.0K OHM 1/8W 1%   R-US_R0805    R0805      RESISTOR, American symbol                                              
+R2    10.0K OHM 1/8W 1%   R-US_R0805    R0805      RESISTOR, American symbol                                              
+R3    10.0K OHM 1/8W 1%   R-US_R0805    R0805      RESISTOR, American symbol                                              
+R4    10.0K OHM 1/8W 1%   R-US_R0805    R0805      RESISTOR, American symbol                                              
+R5    10.0K OHM 1/8W 1%   R-US_R0805    R0805      RESISTOR, American symbol                                              
+R6    10.0K OHM 1/8W 1%   R-US_R0805    R0805      RESISTOR, American symbol                                              
+R7    10.0K OHM 1/8W 1%   R-US_R0805    R0805      RESISTOR, American symbol                                              
+R8    10.0K OHM 1/8W 1%   R-US_R0805    R0805      RESISTOR, American symbol                                              
+R9    1.0K OHM 1/8W 1%    R-US_R0805    R0805      RESISTOR, American symbol                                              
+R10   1.0K OHM 1/8W 1%    R-US_R0805    R0805      RESISTOR, American symbol                                              
+R11   1.0K OHM 1/8W 1%    R-US_R0805    R0805      RESISTOR, American symbol                                              
+R12   1.0K OHM 1/8W 1%    R-US_R0805    R0805      RESISTOR, American symbol                                              
+R13   RES 120 OHM 1/4W 1% R-US_R1206    R1206      RESISTOR, American symbol                                              
+R14   RES 120 OHM 1/4W 1% R-US_R1206    R1206      RESISTOR, American symbol                                              
+R15   1.0K OHM 1/8W 1%    R-US_R0805    R0805      RESISTOR, American symbol                                              
+R16   100.0K OHM          R-US_R0805    R0805      RESISTOR, American symbol                                              
+R17   100.0K OHM          R-US_R0805    R0805      RESISTOR, American symbol                                              
+R18   100.0K OHM          R-US_R0805    R0805      RESISTOR, American symbol                                              
+R19   100.0K OHM          R-US_R0805    R0805      RESISTOR, American symbol                                              
+R20   4.7K OHM            R-US_R0805    R0805      RESISTOR, American symbol                                              
+R21   4.7K OHM            R-US_R0805    R0805      RESISTOR, American symbol                                              
+R22   FERRITE             R-US_M1206    M1206      RESISTOR, American symbol                                              
+RXLED TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+SLEEP TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+SW1   CTS 208-7           SW_DIP-7      EDG-07     DIP SWITCH                                                             
+TP1   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP2   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP3   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP4   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP5   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP6   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP7   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP8   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP9   TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP10  TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP11  TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP12  TP5P5-25-13         TP5P5-25-13   P5-25-13   Test pad                                                               
+TP13  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP14  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP15  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP16  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP17  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP18  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP19  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP20  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP21  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP22  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP23  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP24  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP25  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP26  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP27  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP28  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP29  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP30  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP31  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP32  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP33  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP34  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP35  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TP36  TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TXDEN TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+TXLED TPPAD1-13Y          TPPAD1-13Y    P1-13Y     Test pad                                                               
+X1    GMSTBA3             GMSTBA3       GMSTBA3    PHOENIX                                                                
+X2    22-23-2111          22-23-2111    22-23-2111 .100" (2.54mm) Center Header - 11 Pin                                  
+X3    22-23-2111          22-23-2111    22-23-2111 .100" (2.54mm) Center Header - 11 Pin                                  
+X4    22-23-2111          22-23-2111    22-23-2111 .100" (2.54mm) Center Header - 11 Pin                                  
+X5    22-23-2111          22-23-2111    22-23-2111 .100" (2.54mm) Center Header - 11 Pin                                  
+X6    AU-Y1007-R          PN61729-S     PN61729-S  BERG USB connector                                                     
