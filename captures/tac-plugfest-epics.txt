@@ -1,0 +1,441 @@
+bacnet epics 10925
+List of Objects in test device:
+{
+  {
+    object-identifier: (device,10925)
+    object-name: "TAC_10925"
+    object-type: device
+    system-status: operational
+    vendor-name: "TAC"
+    vendor-identifier: 10
+    model-name: "b3810"
+    firmware-revision: "Bootloader 4.400032"
+    application-software-version: "Firmware 4.400032"
+    protocol-version: 1
+    protocol-services-supported: (T,T,F,F,F,T,T,T,F,F,T,T,T,T,T,T,T,T,F,F,T,F,F,F,F,F,T,T,T,F,F,F,T,T,T,T,T,F,F,T)
+    protocol-object-types-supported: (T,T,T,T,T,T,T,T,T,T,T,F,T,T,T,T,T,T,F,T,T,F,F,F,F)
+    max-apdu-length-accepted: 478
+    segmentation-supported: segmented-both
+    local-time: 11:53:19.53
+    local-date: (Wednesday,04-October-2006)
+    utc-offset: 0
+    daylight-savings-status: T
+    apdu-segment-timeout: 2000
+    apdu-timeout: 3000
+    number-of-apdu-retries: 3
+    max-master: 127
+    max-info-frames: 2
+    device-address-binding: ERROR: UNKNOWN_ERROR
+    proprietary-property: 2011925
+    object-list: {
+      (device,10925),(file,1),(analog-input,4),
+      (binary-input,2),(multi-state-input,3),(analog-input,1),
+      (binary-output,5),(binary-output,6),(binary-output,7),
+      (binary-output,8),(analog-value,9),(analog-value,10),
+      (binary-value,11),(binary-value,12),(multistate-value,13),
+      (multistate-value,14),(trendlog,18),(calendar,15),
+      (schedule,16),(loop,17)
+    }
+  },
+  {
+    object-identifier: (file,1)
+    object-name: "ACCConfiguration"
+    object-type: file
+    file-type: "Configuration"
+    file-size: 4961
+    modification-date: {(Tuesday,03-October-2006),15:20:52.00}
+    archive: F
+    read-only: T
+    file-access-method: stream-access
+  },
+  {
+    object-identifier: (analog-input,4)
+    object-name: "AnalogInput4"
+    object-type: analog-input
+    present-value: 10.000000
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    units: no-units
+    description: ""
+  },
+  {
+    object-identifier: (binary-input,2)
+    object-name: "BinaryInput2"
+    object-type: binary-input
+    present-value: inactive
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    polarity: normal
+    description: ""
+  },
+  {
+    object-identifier: (multi-state-input,3)
+    object-name: "MultiStateInput3"
+    object-type: multi-state-input
+    description: ""
+  },
+  {
+    object-identifier: (analog-input,1)
+    object-name: "RoomTemperature"
+    object-type: analog-input
+    present-value: 327.670013
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    units: degrees-Farenheit
+    description: ""
+  },
+  {
+    object-identifier: (binary-output,5)
+    object-name: "BinaryOutput1"
+    object-type: binary-output
+    present-value: inactive
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    polarity: normal
+    priority-array: {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL}
+    relinquish-default: inactive
+    description: ""
+  },
+  {
+    object-identifier: (binary-output,6)
+    object-name: "BinaryOutput2"
+    object-type: binary-output
+    present-value: inactive
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    polarity: normal
+    priority-array: {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL}
+    relinquish-default: inactive
+    description: ""
+  },
+  {
+    object-identifier: (binary-output,7)
+    object-name: "BinaryOutput3"
+    object-type: binary-output
+    present-value: inactive
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    polarity: normal
+    priority-array: {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL}
+    relinquish-default: inactive
+    description: ""
+  },
+  {
+    object-identifier: (binary-output,8)
+    object-name: "BinaryOutput4"
+    object-type: binary-output
+    present-value: active
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    polarity: normal
+    priority-array: {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,active}
+    relinquish-default: inactive
+    description: ""
+  },
+  {
+    object-identifier: (analog-value,9)
+    object-name: "AnalogValue1"
+    object-type: analog-value
+    present-value: 0.000000
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    units: no-units
+    relinquish-default: 0.000000
+    description: ""
+    priority-array: {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL}
+    relinquish-default: 0.000000
+  },
+  {
+    object-identifier: (analog-value,10)
+    object-name: "AnalogValue2"
+    object-type: analog-value
+    present-value: 0.000000
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    units: no-units
+    relinquish-default: 0.000000
+    description: ""
+    priority-array: {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL}
+    relinquish-default: 0.000000
+  },
+  {
+    object-identifier: (binary-value,11)
+    object-name: "BinaryValue1"
+    object-type: binary-value
+    present-value: inactive
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    description: ""
+    priority-array: {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL}
+    relinquish-default: inactive
+  },
+  {
+    object-identifier: (binary-value,12)
+    object-name: "BinaryValue2"
+    object-type: binary-value
+    present-value: inactive
+    status-flags: (F,F,F,F)
+    event-state: normal
+    out-of-service: F
+    description: ""
+    priority-array: {NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL}
+    relinquish-default: inactive
+  },
+  {
+    object-identifier: ERROR: NOT_SUPPORTED
+    object-name: ERROR: NOT_SUPPORTED
+    object-type: ERROR: NOT_SUPPORTED
+    description: ERROR: NOT_SUPPORTED
+  },
+  {
+    object-identifier: ERROR: NOT_SUPPORTED
+    object-name: ERROR: NOT_SUPPORTED
+    object-type: ERROR: NOT_SUPPORTED
+    description: ERROR: NOT_SUPPORTED
+  },
+  {
+    object-identifier: (trendlog,18)
+    object-name: "TrendLog1"
+    object-type: trendlog
+    description: ""
+  },
+  {
+    object-identifier: (calendar,15)
+    object-name: "TAC_Holidays"
+    object-type: calendar
+    description: "List of TAC observed holidays"
+  },
+  {
+    object-identifier: (schedule,16)
+    object-name: "WorkSchedule"
+    object-type: schedule
+    description: ""
+  },
+  {
+    object-identifier: (loop,17)
+    object-name: "Loop1"
+    object-type: loop
+    description: ""
+  }
+}
+
+SYNERGY Revision 2x65j built on 08-Aug-2006
+>bacnet dump
+BACnetID Vendor MaxAPDU Remote NetNum  MACAddress
+-------- ------ ------- ------ ------ ------------
+     251     10    1350      1    888 AC100A4EBAC0  
+   10925     10     478      0      0 19            
+   42333     42     480      0      0 02            
+-------- ------ ------- ------ ------ ------------
+Total Devices        3
+
+SYNERGY Revision 2x65j built on 08-Aug-2006
+>bacnet device 42333
+    object-identifier: (device,42333)
+    object-name: "BACnet"
+    object-type: device (8)
+    system-status: operational (0)
+    vendor-name: "Lithonia Lighting, Inc."
+    vendor-identifier: 42
+    model-name: "SYSC MSTP"
+    firmware-revision: "2x65j"
+    application-software-version: "08-Aug-2006
+Keyboard 1 v1.07  
+Dimmer   0 v1V07  
+Relay    2 v1.16  "
+    protocol-version: 1
+    protocol-conformance-class: 2
+    protocol-services-supported: (F,F,F,F,F,F,T,T,F,F,F,F,T,F,T,T,F,T,F,F,T,F,F,F,F,F,T,T,F,F,F,F,T,T,T) (atomic-read-file|atomic-write-file|read-property|read-property-multiple|write-property|device-communication-control|reinitialize-device|i-am|i-have|time-synchronization|who-has|who-is)
+    protocol-object-types-supported: (T,T,T,T,T,T,F,F,T,F,T,F,F,F,F,F,F,F,F,F,F) (analog-input|analog-output|analog-value|binary-input|binary-output|binary-value|device|file)
+    max-apdu-length-accepted: 480
+    segmentation-supported: segmented-both (0)
+    local-time: 11:54:41.00
+    local-date: (*,04-October-2006)
+    utc-offset: 300
+    daylight-savings-status: T
+    apdu-segment-timeout: 8000
+    apdu-timeout: 8000
+    number-of-apdu-retries: 3
+    max-master: 127
+    max-info-frames: 1
+    device-address-binding: ?
+    proprietary-property: 07:34:12.00
+    proprietary-property: 19:18:20.00
+    object-list: {
+      (device,42333),(analog-output,201),(binary-output,201),
+      (analog-output,202),(binary-output,202),(analog-output,203),
+      (binary-output,203),(analog-output,204),(binary-output,204),
+      (analog-output,205),(binary-output,205),(analog-output,206),
+      (binary-output,206),(analog-output,207),(binary-output,207),
+      (analog-output,208),(binary-output,208),(analog-output,2101),
+      (binary-output,2101),(analog-output,1),(binary-output,1),
+      (analog-output,2),(binary-output,2),(analog-output,3),
+      (binary-output,3),(analog-output,4),(binary-output,4),
+      (analog-output,5),(binary-output,5),(analog-output,6),
+      (binary-output,6),(analog-output,2102),(binary-output,2102),
+      (binary-value,1),(binary-input,1),(binary-input,2),
+      (binary-input,201),(binary-input,202),(binary-input,203),
+      (binary-input,204),(binary-input,205),(binary-input,206),
+      (binary-input,207),(binary-input,208),(analog-input,1),
+      (analog-input,2),(analog-input,3),(analog-input,201),
+      (analog-input,202),(analog-input,2101),(binary-input,2101),
+      (analog-input,2102),(binary-input,2102),(analog-input,2103),
+      (binary-input,2103),(analog-input,2104),(binary-input,2104),
+      (analog-input,2105),(binary-input,2105),(analog-input,2106),
+      (binary-input,2106),(analog-input,2107),(binary-input,2107),
+      (analog-input,2108),(binary-input,2108),(analog-input,2109),
+      (binary-input,2109),(analog-input,2110),(binary-input,2110),
+      (analog-input,2111),(binary-input,2111),(analog-input,2112),
+      (binary-input,2112),(analog-input,2113),(binary-input,2113),
+      (analog-input,2114),(binary-input,2114),(analog-input,2115),
+      (binary-input,2115),(analog-input,2116),(binary-input,2116),
+      (analog-input,2201),(binary-input,2201),(analog-input,2202),
+      (binary-input,2202),(analog-input,2203),(binary-input,2203),
+      (analog-input,2204),(binary-input,2204),(analog-input,2205),
+      (binary-input,2205),(analog-input,2206),(binary-input,2206),
+      (analog-input,2207),(binary-input,2207),(analog-input,2208),
+      (binary-input,2208),(analog-input,2217),(binary-input,2217),
+      (analog-input,2218),(binary-input,2218),(analog-input,2219),
+      (binary-input,2219),(analog-input,2220),(binary-input,2220),
+      (analog-input,2221),(binary-input,2221),(analog-input,2222),
+      (binary-input,2222),(analog-input,2223),(binary-input,2223),
+      (analog-input,2224),(binary-input,2224),(analog-input,2225),
+      (binary-input,2225),(analog-input,2226),(binary-input,2226),
+      (analog-input,2227),(binary-input,2227),(analog-input,2228),
+      (binary-input,2228),(analog-input,2301),(binary-input,2301),
+      (analog-input,2302),(binary-input,2302),(analog-input,2303),
+      (binary-input,2303),(analog-input,2304),(binary-input,2304),
+      (analog-input,2305),(binary-input,2305),(analog-input,2306),
+      (binary-input,2306),(analog-input,2307),(binary-input,2307),
+      (analog-input,2308),(binary-input,2308),(analog-input,2317),
+      (binary-input,2317),(analog-input,2318),(binary-input,2318),
+      (analog-input,2319),(binary-input,2319),(analog-input,2320),
+      (binary-input,2320),(analog-input,2321),(binary-input,2321),
+      (analog-input,2322),(binary-input,2322),(analog-input,2323),
+      (binary-input,2323),(analog-input,2324),(binary-input,2324),
+      (analog-input,2325),(binary-input,2325),(analog-input,2326),
+      (binary-input,2326),(analog-input,2327),(binary-input,2327),
+      (analog-input,2328),(binary-input,2328),(analog-value,0),
+      (analog-value,1),(analog-value,2),(analog-value,3),
+      (analog-value,4),(analog-value,5),(analog-value,6),
+      (analog-value,7),(analog-value,8),(analog-value,9),
+      (analog-value,10),(analog-value,11),(analog-value,12),
+      (analog-value,13),(analog-value,14),(analog-value,15),
+      (analog-value,16),(analog-value,17),(analog-value,18),
+      (analog-value,19),(analog-value,20),(analog-value,201),
+      (analog-value,202),(analog-value,203),(analog-value,204),
+      (analog-value,205),(analog-value,206),(analog-value,207),
+      (analog-value,208),(analog-value,217),(analog-value,2101),
+      (analog-value,2102),(analog-value,2103),(analog-value,2104),
+      (analog-value,2105),(analog-value,2106),(analog-value,2107),
+      (analog-value,2108),(analog-value,2109),(analog-value,2110),
+      (analog-value,2111),(analog-value,2112),(analog-value,2113),
+      (analog-value,2114),(analog-value,2115),(analog-value,2116),
+      (analog-value,2117),(analog-value,2118),(analog-value,2119),
+      (analog-value,2120),(analog-value,2121),(analog-value,2122),
+      (analog-value,2123),(analog-value,2124),(analog-value,2125),
+      (analog-value,2126),(analog-value,2127),(analog-value,2128),
+      (analog-value,2201),(analog-value,2202),(analog-value,2203),
+      (analog-value,2204),(analog-value,2205),(analog-value,2206),
+      (analog-value,2207),(analog-value,2208),(analog-value,2217),
+      (analog-value,2218),(analog-value,2219),(analog-value,2220),
+      (analog-value,2221),(analog-value,2222),(analog-value,2223),
+      (analog-value,2224),(analog-value,2225),(analog-value,2226),
+      (analog-value,2227),(analog-value,2228),(analog-value,2301),
+      (analog-value,2302),(analog-value,2303),(analog-value,2304),
+      (analog-value,2305),(analog-value,2306),(analog-value,2307),
+      (analog-value,2308),(analog-value,2317),(analog-value,2318),
+      (analog-value,2319),(analog-value,2320),(analog-value,2321),
+      (analog-value,2322),(analog-value,2323),(analog-value,2324),
+      (analog-value,2325),(analog-value,2326),(analog-value,2327),
+      (analog-value,2328),(file,0),(file,1),
+      (file,2),(file,3),(file,4),
+      (file,5),(file,6),(file,7),
+      (file,8),(file,9),(file,10),
+      (file,11),(file,12),(file,13),
+      (file,14),(file,15),(file,16),
+      (file,17),(file,18),(file,19),
+      (file,32),(file,33),(file,34),
+      (file,35),(file,64),(file,100),
+      (file,101),(file,102),(file,103),
+      (file,104),(file,105),(file,106),
+      (file,107),(file,108),(file,109)
+    }
+
+SYNERGY Revision 2x65j built on 08-Aug-2006
+>bacnet dump
+BACnetID Vendor MaxAPDU Remote NetNum  MACAddress
+-------- ------ ------- ------ ------ ------------
+     251     10    1350      1    888 AC100A4EBAC0  
+   10925     10     478      0      0 19            
+   42333     42     480      0      0 02            
+-------- ------ ------- ------ ------ ------------
+Total Devices        3
+
+SYNERGY Revision 2x65j built on 08-Aug-2006
+>bacnet epics 251
+List of Objects in test device:
+{
+}
+
+SYNERGY Revision 2x65j built on 08-Aug-2006
+>bacnet device 251
+    object-identifier: (device,251)
+    object-name: "Howard_Laptop"
+    object-type: device (8)
+    system-status: operational (0)
+    vendor-name: "TAC"
+    vendor-identifier: 10
+    model-name: "Continuum Cyberstation"
+    firmware-revision: "1.74.0.20060929"
+    application-software-version: "1.74.0.20060929"
+    protocol-version: 1
+    protocol-conformance-class: 6
+    protocol-services-supported: (F,F,T,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,T,F,F,F,F,T,F,F,F,F,F) (confirmed-event-notification|read-property|i-am|unconfirmed-event-notification|who-is)
+    protocol-object-types-supported: (F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F) (device)
+    max-apdu-length-accepted: 1350
+    segmentation-supported: segmented-both (0)
+    local-time: 14:59:19.00
+    local-date: (Wednesday,04-October-2006)
+    utc-offset: 300
+    daylight-savings-status: T
+    apdu-segment-timeout: 2000
+    apdu-timeout: 5000
+    number-of-apdu-retries: 3
+    time-synchronization-recipients: ?
+    max-master: 255
+    max-info-frames: 1246576928
+    device-address-binding: ERROR: UNKNOWN_ERROR
+    proprietary-property: 0
+    object-list: {
+    }
+
+SYNERGY Revision 2x65j built on 08-Aug-2006
+>bacnet device 251   191
+    object-identifier: ERROR: DEVICE NOT FOUND
+    object-name: ERROR: DEVICE NOT FOUND
+    object-list: {
+    }
+
+SYNERGY Revision 2x65j built on 08-Aug-2006
+>bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191                 bacnet device 191         umpall
+BACnetID Vendor MaxAPDU Remote NetNum  MACAddress
+-------- ------ ------- ------ ------ ------------
+     251     10    1350      1    888 AC100A4EBAC0  
+   10925     10     478      0      0 19            
+   42333     42     480      0      0 02            
+-------- ------ ------- ------ ------ ------------
+Total Devices        3
+
+SYNERGY Revision 2x65j built on 08-Aug-2006
+>

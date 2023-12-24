@@ -1,0 +1,191 @@
+No.     Time        Source                Destination           Protocol Info
+    342 6.329036    192.168.2.130         192.168.2.122         BACnet-APDU Confirmed-Request [invoke:198]: writeProperty
+
+Frame 342 (73 bytes on wire, 73 bytes captured)
+Ethernet II, Src: 3com_79:52:81 (00:01:02:79:52:81), Dst: Automate_00:67:53 (00:e0:c9:00:67:53)
+Internet Protocol, Src: 192.168.2.130 (192.168.2.130), Dst: 192.168.2.122 (192.168.2.122)
+User Datagram Protocol, Src Port: 47808 (47808), Dst Port: 47808 (47808)
+BACnet Virtual Link Control
+Building Automation and Control Network NPDU
+Building Automation and Control Network APDU
+    0000 .... = APDU Type: Confirmed-Request  (0)
+    .... 0010 = PDU Flags: 0x02
+    .000 .... = Max Response Segments accepted: Unspecified (0)
+    .... 0101 = Size of Maximum ADPU accepted: Up to 1476 octets (fits in an ISO 8802-3 frame) (5)
+    Invoke ID: 198
+    Service Choice: writeProperty (15)
+    ObjectIdentifier: analog-value object, 105
+    property Identifier: present-value
+    propertyValue
+        Opening Tag: 3
+        present-value: 0.000000 (Real)
+        Closing Tag: 3
+    Priority: (Unsigned) 10
+
+No.     Time        Source                Destination           Protocol Info
+    407 1.834569    192.168.2.130         192.168.2.122         BACnet-APDU Confirmed-Request [invoke:205]: writeProperty
+
+Frame 407 (73 bytes on wire, 73 bytes captured)
+Ethernet II, Src: 3com_79:52:81 (00:01:02:79:52:81), Dst: Automate_00:67:53 (00:e0:c9:00:67:53)
+Internet Protocol, Src: 192.168.2.130 (192.168.2.130), Dst: 192.168.2.122 (192.168.2.122)
+User Datagram Protocol, Src Port: 47808 (47808), Dst Port: 47808 (47808)
+BACnet Virtual Link Control
+Building Automation and Control Network NPDU
+Building Automation and Control Network APDU
+    0000 .... = APDU Type: Confirmed-Request  (0)
+    .... 0010 = PDU Flags: 0x02
+    .000 .... = Max Response Segments accepted: Unspecified (0)
+    .... 0101 = Size of Maximum ADPU accepted: Up to 1476 octets (fits in an ISO 8802-3 frame) (5)
+    Invoke ID: 205
+    Service Choice: writeProperty (15)
+    ObjectIdentifier: analog-value object, 102
+    property Identifier: present-value
+    propertyValue
+        Opening Tag: 3
+        present-value: 100.000000 (Real)
+        Closing Tag: 3
+    Priority: (Unsigned) 10
+
+No.     Time        Source                Destination           Protocol Info
+    420 0.709748    192.168.2.130         192.168.2.122         BACnet-APDU Confirmed-Request [invoke:208]: writeProperty
+
+Frame 420 (73 bytes on wire, 73 bytes captured)
+Ethernet II, Src: 3com_79:52:81 (00:01:02:79:52:81), Dst: Automate_00:67:53 (00:e0:c9:00:67:53)
+Internet Protocol, Src: 192.168.2.130 (192.168.2.130), Dst: 192.168.2.122 (192.168.2.122)
+User Datagram Protocol, Src Port: 47808 (47808), Dst Port: 47808 (47808)
+BACnet Virtual Link Control
+Building Automation and Control Network NPDU
+Building Automation and Control Network APDU
+    0000 .... = APDU Type: Confirmed-Request  (0)
+    .... 0010 = PDU Flags: 0x02
+    .000 .... = Max Response Segments accepted: Unspecified (0)
+    .... 0101 = Size of Maximum ADPU accepted: Up to 1476 octets (fits in an ISO 8802-3 frame) (5)
+    Invoke ID: 208
+    Service Choice: writeProperty (15)
+    ObjectIdentifier: analog-value object, 101
+    property Identifier: present-value
+    propertyValue
+        Opening Tag: 3
+        present-value: 0.000000 (Real)
+        Closing Tag: 3
+    Priority: (Unsigned) 10
+
+No.     Time        Source                Destination           Protocol Info
+    646 4.151599    192.168.2.130         192.168.2.122         BACnet-APDU Confirmed-Request [invoke:220]: writeProperty
+
+Frame 646 (73 bytes on wire, 73 bytes captured)
+Ethernet II, Src: 3com_79:52:81 (00:01:02:79:52:81), Dst: Automate_00:67:53 (00:e0:c9:00:67:53)
+Internet Protocol, Src: 192.168.2.130 (192.168.2.130), Dst: 192.168.2.122 (192.168.2.122)
+User Datagram Protocol, Src Port: 47808 (47808), Dst Port: 47808 (47808)
+BACnet Virtual Link Control
+Building Automation and Control Network NPDU
+Building Automation and Control Network APDU
+    0000 .... = APDU Type: Confirmed-Request  (0)
+    .... 0010 = PDU Flags: 0x02
+    .000 .... = Max Response Segments accepted: Unspecified (0)
+    .... 0101 = Size of Maximum ADPU accepted: Up to 1476 octets (fits in an ISO 8802-3 frame) (5)
+    Invoke ID: 220
+    Service Choice: writeProperty (15)
+    ObjectIdentifier: analog-value object, 101
+    property Identifier: present-value
+    propertyValue
+        Opening Tag: 3
+        present-value: 100.000000 (Real)
+        Closing Tag: 3
+    Priority: (Unsigned) 10
+
+No.     Time        Source                Destination           Protocol Info
+    826 2.726310    192.168.2.130         192.168.2.122         BACnet-APDU Confirmed-Request [invoke:230]: writeProperty
+
+Frame 826 (73 bytes on wire, 73 bytes captured)
+Ethernet II, Src: 3com_79:52:81 (00:01:02:79:52:81), Dst: Automate_00:67:53 (00:e0:c9:00:67:53)
+Internet Protocol, Src: 192.168.2.130 (192.168.2.130), Dst: 192.168.2.122 (192.168.2.122)
+User Datagram Protocol, Src Port: 47808 (47808), Dst Port: 47808 (47808)
+BACnet Virtual Link Control
+Building Automation and Control Network NPDU
+Building Automation and Control Network APDU
+    0000 .... = APDU Type: Confirmed-Request  (0)
+    .... 0010 = PDU Flags: 0x02
+    .000 .... = Max Response Segments accepted: Unspecified (0)
+    .... 0101 = Size of Maximum ADPU accepted: Up to 1476 octets (fits in an ISO 8802-3 frame) (5)
+    Invoke ID: 230
+    Service Choice: writeProperty (15)
+    ObjectIdentifier: analog-value object, 106
+    property Identifier: present-value
+    propertyValue
+        Opening Tag: 3
+        present-value: 0.000000 (Real)
+        Closing Tag: 3
+    Priority: (Unsigned) 10
+
+No.     Time        Source                Destination           Protocol Info
+    889 1.237840    192.168.2.130         192.168.2.122         BACnet-APDU Confirmed-Request [invoke:235]: writeProperty
+
+Frame 889 (73 bytes on wire, 73 bytes captured)
+Ethernet II, Src: 3com_79:52:81 (00:01:02:79:52:81), Dst: Automate_00:67:53 (00:e0:c9:00:67:53)
+Internet Protocol, Src: 192.168.2.130 (192.168.2.130), Dst: 192.168.2.122 (192.168.2.122)
+User Datagram Protocol, Src Port: 47808 (47808), Dst Port: 47808 (47808)
+BACnet Virtual Link Control
+Building Automation and Control Network NPDU
+Building Automation and Control Network APDU
+    0000 .... = APDU Type: Confirmed-Request  (0)
+    .... 0010 = PDU Flags: 0x02
+    .000 .... = Max Response Segments accepted: Unspecified (0)
+    .... 0101 = Size of Maximum ADPU accepted: Up to 1476 octets (fits in an ISO 8802-3 frame) (5)
+    Invoke ID: 235
+    Service Choice: writeProperty (15)
+    ObjectIdentifier: analog-value object, 104
+    property Identifier: present-value
+    propertyValue
+        Opening Tag: 3
+        present-value: 0.000000 (Real)
+        Closing Tag: 3
+    Priority: (Unsigned) 10
+
+No.     Time        Source                Destination           Protocol Info
+   1236 5.459846    192.168.2.130         192.168.2.122         BACnet-APDU Confirmed-Request [invoke:251]: writeProperty
+
+Frame 1236 (73 bytes on wire, 73 bytes captured)
+Ethernet II, Src: 3com_79:52:81 (00:01:02:79:52:81), Dst: Automate_00:67:53 (00:e0:c9:00:67:53)
+Internet Protocol, Src: 192.168.2.130 (192.168.2.130), Dst: 192.168.2.122 (192.168.2.122)
+User Datagram Protocol, Src Port: 47808 (47808), Dst Port: 47808 (47808)
+BACnet Virtual Link Control
+Building Automation and Control Network NPDU
+Building Automation and Control Network APDU
+    0000 .... = APDU Type: Confirmed-Request  (0)
+    .... 0010 = PDU Flags: 0x02
+    .000 .... = Max Response Segments accepted: Unspecified (0)
+    .... 0101 = Size of Maximum ADPU accepted: Up to 1476 octets (fits in an ISO 8802-3 frame) (5)
+    Invoke ID: 251
+    Service Choice: writeProperty (15)
+    ObjectIdentifier: analog-value object, 103
+    property Identifier: present-value
+    propertyValue
+        Opening Tag: 3
+        present-value: 0.000000 (Real)
+        Closing Tag: 3
+    Priority: (Unsigned) 10
+
+No.     Time        Source                Destination           Protocol Info
+   1351 1.929296    192.168.2.130         192.168.2.122         BACnet-APDU Confirmed-Request [invoke:3]: writeProperty
+
+Frame 1351 (73 bytes on wire, 73 bytes captured)
+Ethernet II, Src: 3com_79:52:81 (00:01:02:79:52:81), Dst: Automate_00:67:53 (00:e0:c9:00:67:53)
+Internet Protocol, Src: 192.168.2.130 (192.168.2.130), Dst: 192.168.2.122 (192.168.2.122)
+User Datagram Protocol, Src Port: 47808 (47808), Dst Port: 47808 (47808)
+BACnet Virtual Link Control
+Building Automation and Control Network NPDU
+Building Automation and Control Network APDU
+    0000 .... = APDU Type: Confirmed-Request  (0)
+    .... 0010 = PDU Flags: 0x02
+    .000 .... = Max Response Segments accepted: Unspecified (0)
+    .... 0101 = Size of Maximum ADPU accepted: Up to 1476 octets (fits in an ISO 8802-3 frame) (5)
+    Invoke ID: 3
+    Service Choice: writeProperty (15)
+    ObjectIdentifier: analog-value object, 0
+    property Identifier: present-value
+    propertyValue
+        Opening Tag: 3
+        present-value: 0.000000 (Real)
+        Closing Tag: 3
+    Priority: (Unsigned) 10
