@@ -1,0 +1,30 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+ESTIMATE.C
+             main                                   82
+             create_list_element                     9
+             add_element                            12
+             delete_elements                        10
+             count_entries                          10
+             xsum_entries                           10
+             ysum_entries                           10
+             upper_sigma_entries                    15
+             lower_sigma_entries                    14
+             open_input_file                         8
+             load_file_into_list                    29
+             usage                                  17
+             calculate_variance                     19
+             calculate_linear_regression            31
+             simpson_integrate                      67
+             t_distribution_function                23
+             calculate_range                        38
+             sigma_xi_xavg_sqr_entries              11
+             find_tval                              35
+             gamma_n_over_2                         13
+             -------------------------------- --------         
+             20                                    463      516
+============ ================================ ======== ========
+Comment LOC                                                 533
+Physical LOC                                               1111
+

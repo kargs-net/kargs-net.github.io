@@ -1,0 +1,13 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+SIMPSON.C
+             main                                   47
+             simpson_integrate                      46
+             normal_distribution_function            8
+             -------------------------------- --------         
+             3                                     101      113
+============ ================================ ======== ========
+Comment LOC                                                  88
+Physical LOC                                                213
+

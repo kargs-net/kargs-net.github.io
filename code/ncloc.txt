@@ -1,0 +1,11 @@
+; New/Changed LOC - Estimated versus actual
+; PSP project data
+; Outliers were derived from Excel Chart.
+250,151
+;60 ,264
+92 ,90
+92 ,80
+;90 ,272
+198,113
+170,145
+;147,215

@@ -1,0 +1,11 @@
+; PSP project data
+; Actual LOC versus Actual Time
+151	,252
+264	,381
+90	,250
+80	,287
+272	,806
+113	,456
+145	,347
+215	,679
+

@@ -1,0 +1,22 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+SORTLINK.C
+             main                                   33
+             create_list_element                     9
+             add_element                            12
+             delete_elements                        10
+             sort_elements                          33
+             swap_elements                          27
+             open_output_file                       38
+             open_input_file                         8
+             load_file_into_list                    31
+             print_elements_to_file                 25
+             interpret_arguments                    19
+             usage                                  35
+             -------------------------------- --------         
+             12                                    280      322
+============ ================================ ======== ========
+Comment LOC                                                 253
+Physical LOC                                                616
+

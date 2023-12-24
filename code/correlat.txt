@@ -1,0 +1,24 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+CORRELAT.C
+             main                                   74
+             create_list_element                     9
+             add_element                            12
+             delete_elements                        10
+             count_entries                          13
+             xsum_entries                           13
+             ysum_entries                           13
+             xysum_entries                          17
+             xsquare_sum_entries                    15
+             ysquare_sum_entries                    15
+             upper_formula                          11
+             lower_square_root                      18
+             open_input_file                         8
+             load_file_into_list                    29
+             -------------------------------- --------         
+             14                                    257      297
+============ ================================ ======== ========
+Comment LOC                                                 317
+Physical LOC                                                671
+

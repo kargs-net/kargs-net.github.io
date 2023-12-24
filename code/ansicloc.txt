@@ -1,0 +1,15 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+ANSICLOC.C
+             main                                  162
+             open_input_file                         8
+             check_token                             7
+             keyword_compare                        14
+             keyword_print                          20
+             -------------------------------- --------         
+             5                                     211      312
+============ ================================ ======== ========
+Comment LOC                                                 157
+Physical LOC                                                419
+

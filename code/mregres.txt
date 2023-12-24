@@ -1,0 +1,30 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+mregres.c
+             main                                   95
+             create_list_element                     9
+             add_element                            12
+             delete_elements                         9
+             count_entries                           8
+             sum_entries                             8
+             multiply_sum_entries                    9
+             square_sum_entries                      8
+             open_input_file                         9
+             load_file_into_list                    33
+             calculate_variance                     13
+             calculate_multiple_regression          83
+             simpson_integrate                      62
+             t_distribution_function                22
+             calculate_range                        58
+             sigma_i_avg_sqr_entries                10
+             find_tval                              30
+             gamma_n_over_2                         12
+             gaussian_method                        86
+             usage                                  25
+             -------------------------------- --------         
+             20                                    601      657
+============ ================================ ======== ========
+Comment LOC                                                 605
+Physical LOC                                               1262
+

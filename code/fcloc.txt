@@ -1,0 +1,25 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+FCLOC.C
+             main                                  211
+             create_list_element                     9
+             add_element                            12
+             delete_elements                        10
+             print_functions                        57
+             last_element                           12
+             open_input_file                         8
+             check_token                            20
+             check_for_function                    100
+             function_name_compare                  20
+             keyword_compare                        14
+             keyword_print                          20
+             open_debug_file                        17
+             debug_file_date                        13
+             usage                                  34
+             -------------------------------- --------         
+             15                                    557      872
+============ ================================ ======== ========
+Comment LOC                                                 416
+Physical LOC                                               1044
+

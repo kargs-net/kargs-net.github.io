@@ -1,0 +1,18 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+STDDEV.C
+             main                                   50
+             create_list_element                     9
+             add_element                            12
+             delete_elements                        10
+             count_entries                          10
+             sum_entries                            10
+             sigma_entries                          10
+             open_file                              12
+             -------------------------------- --------         
+             8                                     123      146
+============ ================================ ======== ========
+Comment LOC                                                  43
+Physical LOC                                                225
+

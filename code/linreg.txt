@@ -1,0 +1,21 @@
+Program      Function                         Function Total
+Name         Name                             LOC      LOC
+============ ================================ ======== ========
+LINREG.C
+             main                                  105
+             create_list_element                     9
+             add_element                            12
+             delete_elements                        10
+             count_entries                          10
+             xsum_entries                           10
+             ysum_entries                           10
+             upper_sigma_entries                    15
+             lower_sigma_entries                    14
+             open_input_file                         8
+             load_file_into_list                    29
+             -------------------------------- --------         
+             11                                    232      264
+============ ================================ ======== ========
+Comment LOC                                                 269
+Physical LOC                                                574
+
