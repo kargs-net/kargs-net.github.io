@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Steve's Software Trek
+</title>
+</head>
+
+<body bgcolor="White">
+<img src="images/software.png" alt="Steve's Software Trek">
+<p>Since I write software for a living, I thought I should dedicate some
+web space for some stuff that I have worked on. I mostly write embedded C
+for PC based controllers, but I have dabbled in a few other areas as well.</p>
+
+<p>I switched webhosting to <a href="http://www.bluehost.com/track/kargsnet/softwaretrek">Bluehost.com</a> and 
+they have lots of web software which can be point-n-click installed, 20 subdomains, 
+and 6 domains on the same account.  So I started blogging about software using 
+<a href="http://wordpress.org/">WordPress</a> and called 
+the site <a href="http://steve.kargs.net/">Steve's Software Trek</a>.  
+How original!</p>
+
+<TABLE border="1" width="100%" cellpadding="12" cellspacing="0"
+summary="links to lots of my favorite places to visit on the internet.">
+<TBODY>
+<TR>
+<TD width="50%" valign="top">
+
+  <h3>My Software</h3>
+
+<p><a href="psp.html">The Personal Software Process (with ANSI C
+source code)</a></p>
+
+<p><a href="elevator.html">An object oriented elevator simulator design
+(with C++ source code)</a></p>
+
+<p><a href="code/compact.c">compact.c</a> - An idea for code from Circuit
+Cellar - Test Your EQ - programmed in C - using some extreme programming
+techniques.  <a href="code/factors.c">factors.c</a> - a little program that gives the factors of a given integer.</p>
+
+<p><a href="code/mailto.c">mailto.c</a> - Obfuscate your e-mail address to
+reduce the chance of a spam-bot harvesting it.</p>
+
+<p><a href="code/keylist.c">keylist.c</a>,
+ <a href="code/keylist.h">keylist.h</a>,
+ <a href="code/key.h">key.h</a> -
+A linked list library programmed in C - using some extreme programming
+techniques.  The linked lists are sorted by key as they are added, and
+can be retrieved by key, index, or FIFO.  This library is useful for
+caching dynamic data by key, such as BACnet I-Am data for each Device Object.
+Of course, I updated the <a href="code/keylist.tgz">keylist library</a> to use
+a dynamic array and binary search, so it is much faster now.  I was also
+fascinated with embedded software ring buffers, but wanted to create a
+generic ring buffer library.  After a couple of iterations,
+the <a href="code/ringbuf.tgz">Ring Buffer Library</a> was created
+and includes unit tests.  Unit tests not only verify the functionality
+of the software, but also provide examples of how to use the API.</p>
+
+<p><a href="code/bacenum.h">bacenum.h</a> - BACnet has quite a few
+enumerations, so I coded up a header file for C.  Basically a cut and paste
+from the standard, and then a little cleanup to make it a C header.  I also
+wrote the MS/TP (Master Slave/Token Passing) Data Link layer by basically doing
+a cut and paste from the standard - <a href="code/mstp.c">mstp.c</a>.  Am I
+just bored?  No, I make some time in the mornings when I wake up to do things
+like read <a href="http://slashdot.org/">Slashdot</a>, e-mail, and eat
+breakfast, and during Christmas 2003 vacation I wanted to see how difficult it
+would be to write it.  It took me one morning to complete the Receive State
+Machine and another morning to complete the Master Node State Machine.  I have
+it on good authority that you should implement the Master Node State Machine
+rather than the Slave Node.  I also coded up a <a
+  href="http://bacnet.sourceforge.net/">BACnet protocol stack</a> for embedded
+devices.  What are you waiting for?  A protocol analyzer?  Detailed BACnet
+protocol information is supported by the open source and cross platform
+protocol analyzer <a href="http://www.ethereal.com/">Ethereal</a> since version
+0.10.11.</p>
+
+<p><a href="code/dbuffer.c">dbuffer.c</a>, <a href="code/dbuffer.h">dbuffer.h</a> - A dynamic buffer library.  <a href="code/dstring.c">dstring.c</a>, <a href="code/dstring.h">dstring.h</a> - a dynamic string library that relies on the GNU vasprintf function.  These are nice little libraries that allow you the programmer to focus on getting the work done, and not on keeping track of a buffer and how big it is and is it big enough and have I overflowed it.</p>
+
+<p><a href="code/sbuf.tgz">sbuf.tgz</a> - A static buffer library.  A little library that tracks the length of a buffer and prevents buffer overflows.  It stores the size and length along with the pointer to the buffer, and has a couple of functions for accessing the buffer.</p>
+
+<p><a href="code/enumtext.c">enumtext.c</a>, <a href="code/enumtext.h">enumtext.h</a> -  A simple library that takes a list of strings that are mapped to enumerations, and provides an easily maintainable way to get the strings when given the enumeration.  Includes unit tests.</p>
+
+<p><a href="code/stdbool.h">stdbool.h</a>, <a href="code/stdint.h">stdint.h</a> - header files that mimic the C99 standard boolean and standard integer types.  Nice to use if you want to make your programs have data sizes that are portable and consistant across platorms.  These are designed for the i386 protected mode architecture - size yours appropriately.</p>
+
+<p><a href="code/timer.c">timer.c</a>, <a href="code/timer.h">timer.h</a> -
+A timer library programmed in C for Win32 - using some extreme programming
+techniques.  The timer is used to time things by marking the timer, and then
+reading back the elapsed time of the timer.</p>
+
+<p><a href="code/profile.c">profile.c</a>, <a href="code/profile.h">profile.h</a>,
+<a href="code/rmspace.c">rmspace.c</a>, <a href="code/rmspace.h">rmspace.h</a>,
+<a href="code/stptok.c">stptok.c</a>, <a href="code/stptok.h">stptok.h</a> -
+Some C code with unit tests, written using test-first extreme programming best
+practice, for reading and writing to INI files by simulating the Win32 API
+functions WritePrivateProfileString and GetPrivateProfileString
+(for Borland C++ <a href="code/profile.zip">profile.zip</a> or
+for GCC <a href="code/profile.tgz">profile.tgz</a>).</p>
+
+<p><a href="code/ctest.c">ctest.c</a>, <a href="code/ctest.h">ctest.h</a>,
+<a href="code/bool.h">bool.h</a> - A C test library used for unit testing.</p>
+
+<p><a href="code/graphics.cpp">graphics.cpp</a>, <a
+  href="code/graphics.h">graphics.h</a>, and <a
+  href="code/graphics.mak.html">graphics.mak</a> were written to draw primitive
+shapes with the <a href="http://libsdl.org/">SDL</a> - Simple DirectMedia
+Layer library.  The primitives include lines, circles, rectangles, and TTF
+Text.</p>
+
+<p>A list of <a href="linux.html">Linux Resources</a>.</p>
+<p>A list of <a href="embedded.html">Embedded Software Programming Resources</a>.</p>
+<p>A list of <a href="win32.html">Open Source Software for Windows</a>.</p>
+
+<h3>Tools</h3>
+
+<p><a href="http://geektools.com/">Geek Tools</a> If you are always looking
+for a way to have all the external network resources that you use often,
+at your fingertips (and all sorts of cool tools that seem to be in different
+places that kept moving and disappearing as people moved around the net,
+from company to company), here is a website, capable of being used by any
+browser including LYNX, with minimal color (16) and minimal resolution (640
+x 480), with no cookies, or Java.  See also the <a
+  href="http://www.insecure.org/tools.html">Top 75 Security Tools</a>.</p>
+
+<p><a href="http://www.snippets.org/">Software Snippets</a> - The SNIPPETS
+collection started out in the late 1980's as a personal project to collect
+useful snippets (hence the name) of C, and later C++, code which would be
+free for reuse in a personal or commercial environment. Over time, it has
+grown to more than 94,000 lines of code in over 700 separate files. The goal
+of SNIPPETS is to collect and disseminate the best C/C++ answers to "How
+do I...?" programming questions.</p>
+
+<p>The <a
+  href="http://domino.research.ibm.com/synedra/synedra.nsf">Stellation</a>
+project at IBM Research is working on developing programming environments that
+support collaboration between members of programming teams. <a
+  href="http://www.tigris.org/">Tigris.org</a> is a mid-sized open source
+community focused on building better tools for collaborative software
+development. It provides information resources for software engineering
+professionals and students, and a home for open source software engineering
+tool projects, such as <a href="http://subversion.tigris.org/">Subversion</a>
+for software configuration management.  Speaking of configuration management,
+the distributed nature of <a href="http://wiki.gnuarch.org/">GNU Arch</a> and <a href="http://bazaar.canonical.com/">Bazaar</a> intrigues me.</p>
+
+</TD>
+<TD width="50%" valign="top">
+<h3>Applications</h3>
+
+  <p>Best of breed - my favorite cross-platform, open source applications. I
+  use <a href="http://www.openoffice.org/">OpenOffice.org</a> software for word
+  processing, spreadsheet, presentation, and drawings. I use <a
+    href="http://www.mozilla.org/">Mozilla</a> for browsing and e-mail. I use
+  <a href="http://www.sourceforge.net/projects/filezilla/">FileZilla</a> for
+  FTP client and FTP server on the Win32 platform. A nice, full featured
+  graphical text editor with syntax highlighting and many other bells and
+  whistles is <a href="http://vim.sourceforge.net/">Vim</a>, or Vi IMproved - a
+  programmers text editor. I like a full featured graphics editing tool called
+  <a href="http://www.gimp.org/">the GIMP</a> - the GNU Image Manipulation
+  Program. If you like to play or edit sound, <a
+    href="http://audacity.sourceforge.net/">Audacity</a> is a good, simple
+  audio editor suitable for recording, mixing, and editing ordinary tracks of
+  CD-quality audio. Games I enjoy playing are <a
+    href="http://tuxracer.sourceforge.net/">Tux Racer</a>, <a
+    href="http://www.bzflag.org/">BZFlag</a>, <A
+    href="http://www.reptilelabour.com/software/chromium/">Chromium BSU</A>,
+  <a href="http://www.nethack.org/">Nethack</a>, and <a
+    href="http://criticalmass.sourceforge.net/">Critical Mass</a>.   There
+  are lots of games,
+  such as <a href="http://www.newbreedsoftware.com/tuxpaint/">Tux Paint</a>,  written using 
+  the <a href="http://libsdl.org/">Simple DirectMedia Layer</a>, an
+  open source, cross-platform multimedia library designed to provide fast
+  access to the graphics framebuffer and audio device.  An open source,
+  cross-platform native UI framework is <a
+    href="http://www.wxwidgets.org/">wxWidgets</a> (formerly called <a href="http://www.wxwindows.org/">wxWindows</a>).
+  I also have a list of other <a href="win32.html">Open Source Software for
+    Windows</a>.<p>
+
+  <h3>Standards</h3>
+
+<p><a href="http://www.bacnet.org/">BACnet</a> - dedicated to providing the
+  latest information on BACnet - A Data Communication Protocol for Building
+  Automation and Control Networks. Developed under the auspices of the American
+  Society of Heating, Refrigerating and Air-Conditioning Engineers (<a
+    href="http://www.ashrae.org/">ASHRAE</a>), The protocol is supported and
+  maintained by ASHRAE Standing Standard Project Committee 135. I help out on
+  the committee, and also on the open source <a
+    href="http://www.sourceforge.net/projects/vts/">Visual Test Shell</a>, an
+  application for testing the BACnet functionality of various devices used in
+  building automation systems. Project members are working on various
+  enhancements to VTS as well as routine maintenance. I work on the open source <a href="http://sourceforge.net/projects/bacnet4linux/">BACnet for
+    Linux</a> project and on the <a href="http://sourceforge.net/projects/bacnet/">embedded BACnet stack</a> project.  I also participate in the <a
+    href="http://groups.yahoo.com/group/bma-btl-wg/">BACnet Testing Labs
+    Working Group</a>, and the <a
+    href="http://groups.yahoo.com/group/BACnetLighting/">BACnet Lighting
+    Applications Working Group</a>.  I also gave a presentation once on <a
+    href="docs/UsingBACnetLighting.pdf">Using BACnet for Lighting
+    Applications</a>. Aren't standards bodies wonderful?</p>
+
+  <p>Speaking of standards,
+  the <a href="http://www.rfc-editor.org/">The Requests for Comments</a> (RFC)
+  document series, a set of technical and organizational notes about the
+  Internet, is available.</p>
+
+  <h3>Software Process</h3>
+
+  <p><a href="http://www.xprogramming.com/">Extreme Programming</a> -
+    Extreme Programming , or XP for short, is a code-centric discipline for
+    getting software done right, on time, within budget, while having fun along
+    the way. The XP approach is to take the best software practices to the
+    extreme. <a href="http://www.extremeprogramming.org/">Another XP site</a>
+    has a great tutorial which includes an introduction and overview. <a
+      href="http://www.freshsources.com/">Chuck Allison</a> wrote a great
+    article in C/C++ Users Journal about the <a
+	    href="docs/simplest_unit_test.pdf">The
+      Simplest Automated Unit Test Framework That Could Possibly Work</a>. It
+    included test frameworks written in <a
+      href="ftp://192.215.71.136/pub/2000/cujsep2000.zip">C, C++,and Java</a>
+    and opened my eyes to doing best practices to the extreme. What? You're not
+    programming in one of those languages? You can download <a
+      href="http://www.xprogramming.com/software.htm">Test Frameworks</a> for
+    other languages.<p>
+
+<p><A HREF="http://www.sdmagazine.com/">Software Development Magazine</a> had an <A HREF="http://www.sdmagazine.com/documents/s=7147/sdm0206b/0206b.htm">article about test first programming</a> of a GUI application that describes a method of incorporating <A HREF="http://www.junit.org/">automated testing</a> into the application.  The example GUI application is a <A HREF="http://www.sdmagazine.com/documents/s=7147/sdm0206b/jlangrdots.zip">simple game</a>, but the design pattern, <A HREF="http://www.martinfowler.com/eaaDev/ModelViewPresenter.html">Model-View-Presenter</a>, could be used for any GUI application. <i>"In <A HREF="http://www.object-arts.com/EducationCentre/Patterns/MVP.htm">MVP</a>, the View actually serves as both the view and controller (presenting output and managing input). The Model is the Model, as in MVC. The extra middle layer is considered a bridge between the View and the Model. It's specific to the application and is often considered throwaway if the View needs to change (for example) from Swing to HTML. In this situation, the Model would remain unchanged."</i></p>
+
+  <p><a href="http://www.jacana.org.uk/pattern/">A Pattern Language</a> has the
+  structure of a network.  A broad sweep through <a
+  href="http://www.jacana.org.uk/pattern/P0.htm">the patterns</a> can capture
+  some idea of and summarises or indexes the full network. Once you get this
+  overview, you will then be able to find the patterns which are relevant to your
+  own project and from these, using neighboring patterns in the network, able to
+  identify other patterns that you may want to include.</p>
+
+<p>Software engineers need certain things to help them be productive.  <a
+  href="http://www.joelonsoftware.com/">Joel</a> writes about the <a
+  href="http://www.joelonsoftware.com/articles/BionicOffice.html">Bionic
+  Office</a>.  He says that there's a lot of evidence that the right kind of
+office space can improve programmer productivity, especially private offices
+with doors that close.  Most of the documented evidence comes from <a
+  href="http://www.amazon.com/exec/obidos/ASIN/0932633439/">Peopleware</a>.
+Productivity boosts come from being "in the zone," a state where the knowledge
+worker is able to fully concentrate on their work and tune out their
+environment.  It takes an average of 15 minutes to get into the zone, but
+noise, phone calls, lunch, and other interruptions can easily and instantly
+knock the worker out of the zone. Prevent the interruptions and you can get a
+260% productivity increase.</p>
+
+<p><a href="http://www.out-law.com/">OUT-LAW.COM</a> provides guides, articles
+and news stories relating to everything from the drawing up of on-line
+contracts and agreements to issues of taxation and defamation.  You will also
+find sample contracts, checklists and other documents, indispensable to your
+business planning and operation.</p>
+
+<p><a href="http://www.techinterview.org/">Tech Interview</a> has a large
+collection of puzzles and problems.  Dr. Dobb's Journal <a
+  href="http://www.ddj.com/articles/1998/9814/">Software Careers</a> articles.
+Chris Sells writes about <a
+  href="http://www.sellsbrothers.com/fun/msiview/">Interviewing at
+  Microsoft</a>.  Or perhaps you just want to <a
+  href="http://www.acetheinterview.com/">Ace the Interview</a>.</p>
+
+</TD>
+</TR>
+</TBODY>
+</TABLE>
+
+<p>  For news I like to browse <a
+  href="http://slashdot.org/">SlashDot</a> and <a
+  href="http://newsforge.org/">NewsForge</a>.
+</p>
+
+<p><a href="http://google.com/">Google</a> - a very fast and often accurate
+search tool. Of course, you might need to use it in your native language. Try
+<a href="http://google.com/intl/xx-elmer/">Elmer Fudd Google</a>, <a
+  href="http://google.com/intl/xx-klingon/">Klingon Google</a>, <a
+  href="http://google.com/intl/xx-piglatin/">Pig Latin Google</a>, or <a
+  href="http://google.com/intl/xx-bork/">Swedish Chef Google</a>. There are
+also other creative outlets at <a href="http://labs.google.com/">Google
+  Labs</a>, Google's technology playground. Google labs showcases a few of
+their favorite ideas that aren't quite ready for prime time. There is also <a
+  href="http://groups.google.com/">Google Groups</a>, which is used to post and
+read comments in Usenet discussion forums. Google offers a complete 20-year
+Usenet Archive with over 700 million messages. Wow!</p>
+</ul>
+
+<hr>
+<p><a href="index.html">My Home Page</a></p>
+
+<p><a href="http://mail.lycos.com/">Webmail</a> at <a
+  href="http://www.lycos.com/">Lycos</a>.</p>
+
+<p><a href="http://mail.yahoo.com/">Webmail</a> at <a
+  href="http://www.yahoo.com/">Yahoo</a>.</p>
+
+<p><a href="http://webmail.lithonia.com/">Webmail</a> at <a
+  href="http://www.lithonia.com/">Lithonia Lighting</a>.</p>
+
+<center>Contact <a href="contacts.html">Steve Karg</a></center>
+
+<br>
+</body>
+</html>

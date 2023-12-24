@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<!-- Built by Steve Karg using Intel's AEDIT, Notepad, or Vim  -->
+<TITLE>Personal Software Process</TITLE>
+<META http-equiv="date" content="Mon March 11 2002">
+</HEAD>
+<body bgcolor="#ffffff">
+<CENTER>
+<H2>Steve's PSP Page</H2>
+</CENTER>
+
+<H3>My journey with the PSP</H3>
+
+<P>The <A href="http://www.sei.cmu.edu/tsp/">Personal Software Process</A> (PSP) is a method of improving your software engineering skills. During the course, there are 10 programs that you write. You record metrics during the development of these programs, and base your size, time, and defect estimates on your past history.</P>
+
+<P>I started to work on the PSP during lunchtime at work in 1996. The company, located in Pittsburgh, later adopted PSP/CMM and went on to send lots of folks to classes, but I had already left the company to move to the south.</P>
+
+<P>I had a keen interest in software process improvement after completing a masters degree in computer information systems, and studying about the Capability Maturity Model in one of the courses on the Software Lifecycle. Since the company was located in Pittsburgh, I attended SEPG meetings that were held monthly at the SEI. Watts came to one of the meetings and did a presentation on PSP shortly after writing the book, and so a work buddy (Jim) bought 2 PSP books (one for him and one for me) at the CMU bookstore. We started doing the excercises together during lunch, and started applying the stuff to my work. Jim got busy with several projects and with having a baby and didn't keep up, but I finished all the excercises. However, Jim later went on to take the course, become a PSP trainer, and went to work for the SEI. In fact, he just presented with Watts at an SEPG conference. He said it was "Sort of like presenting the Bible with God introducing you." Jim also wrote a <A href="http://www.sei.cmu.edu/publications/documents/02.reports/02tr008.html">technical report</A>.</P>
+
+<P>These are the programs I wrote. They are written in ANSI C for an iRMX environment, and should be quite portable, except for the filename/directory convention.</P>
+
+<P>I use <A href="code/fcloc.c">Program 3A</A> (function line of code counter) and <A href="code/estimate.c">Program 6A</A> (linear regression estimate) quite a bit for programming that I do on a day to day basis. This also means that they may contain updates to the original code written for the PSP course. I also wrote a small program that counts the number of times a piece of text is found in a file. <A href="code/count.c">Count</A> is is useful for taking Visual Source Safe reports created from ShowHistory-Reports-IncludeDifferences-ToFile and looking for lines added "Ins:", deleted "Del:", or modified "To:".</P>
+
+<H3>PSP Programs - ANSI C Source Code</H3>
+
+<OL>
+<LI><A href="code/stddev.c">Program 1A</A> <A href="code/stddev.txt">(LOC &amp; Functions)</A> - Reads in a list of numbers from a file, and calculates the mean and standard deviation for those numbers.</LI>
+
+<LI><A href="code/ansicloc.c">Program 2A</A> <A href="code/ansicloc.txt">(LOC &amp; Functions)</A> - Reads in a C program file and counts the number of logical lines of code.</LI>
+
+<LI><A href="code/fcloc.c">Program 3A</A> <A href="code/fcloc.txt">(LOC &amp; Functions)</A> - Reads in a C program file and counts the number of logical lines of code. Also displays each function and displays the number of logical lines of code for that function.</LI>
+
+<LI><A href="code/linreg.c">Program 4A</A> <A href="code/linreg.txt">(LOC &amp; Functions)</A> - Reads in a list of numbers from a file, and performs the the linear regression calculation for those numbers.</LI>
+
+<LI><A href="code/simpson.c">Program 5A</A> <A href="code/simpson.txt">(LOC &amp; Functions)</A> - Calculates a normal distribution number using simpson rule integration.</LI>
+
+<LI><A href="code/estimate.c">Program 6A</A> <A href="code/estimate.txt">(LOC &amp; Functions)</A> - Reads in a list of number pairs from a file, and performs the the linear regression calculation for those numbers. Then it determines the 90% and 70% prediction intervals and produces an estimate for a number that has been passed in. The output is the range for the estimate using the UPI and LPI found earlier. Sample files the program reads contain pairs of data about <A href="code/ncloc.txt">estimate vs. actual lines of code</A>, <A href="code/time.txt">estimated vs. actual time</A>, and <A href="code/timeloc.txt">actual time vs actual lines of code</A>.  <A href="code/tabled14.txt">Table D14</A> is often used in the text for verification.</LI>
+
+<LI><A href="code/correlat.c">Program 7A</A> <A href="code/correlat.txt">(LOC &amp; Functions)</A> - Reads in a list of number pairs from a file, and performs the correlation calculation for those numbers (See program 6A above for sample files).</LI>
+
+<LI><A href="code/sortlink.c">Program 8A</A> <A href="code/sortlink.txt">(LOC &amp; Functions)</A> - Reads in a list of number pairs from a file, places them into a linked list, and sorts the linked list in ascending order according to the column selected by the user (See program 6A above for sample files).</LI>
+
+<LI><A href="code/chitest.c">Program 9A</A> <A href="code/chitest.txt">(LOC &amp; Functions)</A> - Reads in a list of number pairs from a file, and performs a chi squared test on them (See program 6A above for sample files).</LI>
+
+<LI><A href="code/mregres.c">Program 10A</A> <A href="code/mregres.txt">(LOC &amp; Functions)</A> - Reads in a list of numbers from a file, and performs the the multiple regression calculation for those numbers. Then it determines the 90% an 70% prediction intervals and produces an estimate for the estimates that have been passed in. The output is the range for the estimates using the UPI and LPI found earlier. Sample files the program reads contain data from <A href="code/tablea32.txt">Table A32</A> and <A href="code/tabled16.txt">Table D16</A>.</LI>
+</OL>
+
+Here is a <A href="zip/summary.zip">summary</A> of program information in an Microsoft Excel spreadsheet. <BR clear="all">
+
+<H3>PSP Resources</H3>
+
+<p><a href="http://www.processimprovement.com/resources/PSP.htm">PSP
+  Resources</a> brought to you by <a
+  href="http://www.processimprovement.com/">www.processimprovement.com</a>.</p>
+
+<p><a href="http://processdash.sourceforge.net/">The Software Process Dashboard
+  Project</a> - an open-source initiative to create a PSP(SM) / TSP(SM) support
+tool.</p>
+
+<p>An interesting <a
+  href="http://www3.uta.edu/faculty/reyes/teaching/CSE_4310/">code reuse
+  policy</a> for <a href="http://www-cse.uta.edu/~reyes/">Arthur Alexander
+  Reyes</a> classes at <a href="http://www.uta.edu/">The University of Texas at Arlington</a>.</p>
+
+<HR>
+<P>Page created by <A href="contacts.html">Steve Karg</A> using Intel's <A href="zip/aedit.zip">aedit</A>, <a href="http://www.notepad.org/">Notepad</a>, or <a href="http://www.vim.org/">Vim</a>.</P>
+
+<P><A href="software.html">Steve's Software Trek</A></P>
+
+<P><A href="index.html">Steve's Home Page</A></P>
+</BODY>
+</HTML>
+
